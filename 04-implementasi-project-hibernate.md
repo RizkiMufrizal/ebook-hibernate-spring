@@ -406,7 +406,7 @@ kemudian lakukan refactor terhadap component tersebut seperti halnya class **Bar
 
 Setelah selesai kita akan lanjut ke bagian controller. Dibagian controller kita akan mengatur bagaimana cara menghubungkan antara model, dao dan juga view. Silahkan buat sebuah class baru seperti berikut.
 
-![](
+![](gambar/screenshot12.png)
 
 Kemudian tambahkan codingan berikut ini pada class **BarangController** seperti berikut.
 
@@ -600,7 +600,7 @@ private void tabelMouseClicked(java.awt.event.MouseEvent evt) {
 
 Klik kanan pada project lalu pilih new lalu pilih other, pada bagian categories pilih **hibernate** dan pada bagian **File Types** pilih **Hibernate Configuration Wizard**. Klik next dan biarkan filenya dengan nama **hibernate.cfg** klik next maka akan muncul seperti ini.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-08-13:50:32.png}\caption{Hibernate Configuration}\end{figure}
+![](gambar/screenshot13.png)
 
 Pada tahap ini kita diharuskan membuat database terlebih dahulu, silahkan buka **phpmyadmin** anda lalu buatlah sebuah database dengan nama **belajar**. Setelah selesai, pada gambar diatas silahkan pilih **database connection** lalu pilih **New Database Connection** kemudian pada bagian driver pilih **mysql** klik next lalu isikan seperti berikut ini.
 
