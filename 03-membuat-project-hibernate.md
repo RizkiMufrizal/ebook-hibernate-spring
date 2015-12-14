@@ -15,13 +15,13 @@ Berikut adalah tahapan untuk membuat project hibernate dengan menggunakan netbea
 * Pada bagian version biarkan saja dikarenakan aplikasi yang kita bangun masih tahap development maka versionnya default akan menjadi **1.0-SNAPSHOT**.
 * Pada bagian **package** isikan dengan **com.belajar.hibernate** yang berfungsi sebagai nama package dari aplikasi yang akan kita buat nanti, lalu klik finish. Berikut adalah contoh pembuatan projectnya.
 
-![](gambar/Screenshot-from-2015-12-06-16:57:59.png)
+![](gambar/screenshot2.png)
 
 ##Konfigurasi Project
 
 Karena menggunakan maven maka kita akan lakukan konfigurasi pada maven terlebih dahulu. Silahkan buka file **pom.xml** pada bagian **Project Files** maka akan tampil seperti ini.
 
-![](gambar/Screenshot-from-2015-12-06-17:17:22.png)
+![](gambar/screenshot3.png)
 
 untuk mengatur dependency pada project hibernate, maka ubah kodingan pada **pom.xml** seperti berikut.
 
