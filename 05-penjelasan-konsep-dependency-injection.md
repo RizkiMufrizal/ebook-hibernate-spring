@@ -64,7 +64,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import model.Mahasiswa;
- 
+
 public class MahasiswaDao {
     MysqlDataSource dataSource;
     Connection connection;
@@ -80,8 +80,7 @@ public class MahasiswaDao {
     }
     
     public void tambahMahasiswa(Mahasiswa mahasiswa) throws SQLException {
-        PreparedStatement ps=connection.prepareStatement("INSERT INTO 
-        mahasiswa values(?,?,?,?)");
+        PreparedStatement ps=connection.prepareStatement("INSERT INTO mahasiswa values(?,?,?,?)");
         ps.setString(1, mahasiswa.getNpm());
         ps.setString(2, mahasiswa.getNama());
         ps.setString(3, mahasiswa.getAsalSekolah());
