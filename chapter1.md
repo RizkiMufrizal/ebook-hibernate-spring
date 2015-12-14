@@ -1,12 +1,12 @@
 #Landasan Teori
 
-##Object Relational Mapping
+###Object Relational Mapping
 
 Object Relational Mapping (ORM) adalah sebuah framework yang dapat menjembatani perbedaan sistem basis data yang bersifat relational dengan paradigma pengembangan aplikasi yang berorientasi objek. Setiap objek yang akan memetakan menjadi tabel-tabel pada basis data relasional dibungkus oleh suatu interface dengan menerapkan konsep design pattern. Hal tersebut bertujuan untuk memudahkan lapisan aplikasi mengakses data tersebut. Object Relational Mapping merupakan teknik otomasi dan transparansi dari object persistence ke dalam tabel pada basis data, menggunakan metadata yang mendeskripsikan pemetaan antara objek dan basis data. ORM berperan dalam lapisan model dalam konsep MVC. Model adalah sebuah lapisan yang paling dekat dengan sumber data, baik itu berasal dari basis data, webservice, maupun file system.
 
 Object Relational Mapping (ORM) juga mengatasi perbedaan sistem basis data yang bersifat relational dengan paradigma pengembangan aplikasi yang berorientasi objek. Selain itu, ORM juga menjembatani dialek SQL yang digunakan, sehingga apapun produk RDBMS yang digunakan tidak berpengaruh terhadap kode program. ORM merupakan solusi yang mengatasi perbedaan aspek-aspek ketidaksesuaian antara konsep pemrograman berorientasi objek dengan konsep basis data relasional.
 
-##Hibernate
+###Hibernate
 
 Project hibernate dimulai pada tahun 2001 oleh Gavin King, project ini mulai mendapat tanggapan serius setelah Gavin King dipekerjakan oleh Jboss dan Jboss mulai mengerahkan pasukan lebih banyak lagi untuk mengelola Hibernate secara serius. Keberhasilan Hibernate sangat fenomenal, bahkan di satu titik Hibernate justru lebih terkenal dibanding konsep ORM itu sendiri.
 
