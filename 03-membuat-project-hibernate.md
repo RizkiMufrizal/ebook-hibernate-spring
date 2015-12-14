@@ -8,7 +8,7 @@ Berikut adalah tahapan untuk membuat project hibernate dengan menggunakan netbea
 
 * Buka netbeans anda kemudian pilih menu **new project**, pada bagian categories pilih **maven**, dan pada bagian project pilih **java application** seperti berikut.
 
-![](gambar/screenshot-from-2015-12-06-16:57:52.png)
+![](gambar/screenshot1.png)
 
 * Klik next, pada bagian project name isikan dengan **BelajarHibernate**.
 * Pada bagian **Group ID** isikan dengan **com.belajar.hibernate**, Group ID ini berfungsi sebagai penamaan sebuah perusahaan atau organisasi yang membuat aplikasi.
