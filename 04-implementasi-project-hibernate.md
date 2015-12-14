@@ -266,7 +266,7 @@ sintak **@Override** merupakan implementasi dari **inheritance** dimana **@Overr
 
 Langkah selanjutnya silahkan buat class baru seperti berikut ini.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-07-11:40:41.png}\caption{Class BarangTableModel}\end{figure}
+![](gambar/screenshot7.png
 
 setelah selesai kemudian masukkan codingan berikut ini.
 
