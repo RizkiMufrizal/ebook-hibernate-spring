@@ -648,4 +648,4 @@ berikut penjelasan tentang konfigurasi diatas
 
 Kemudian untuk menjalankan aplikasi silahkan klik kanan pada class **BarangView** lalu run file atau dengan shortcut **shift + f6**. Berikut adalah hasilnya.
 
-![(gambar/screenshot15.png)
+![](gambar/screenshot15.png)
