@@ -406,7 +406,7 @@ kemudian lakukan refactor terhadap component tersebut seperti halnya class **Bar
 
 Setelah selesai kita akan lanjut ke bagian controller. Dibagian controller kita akan mengatur bagaimana cara menghubungkan antara model, dao dan juga view. Silahkan buat sebuah class baru seperti berikut.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-08-12:24:52.png}\caption{Class BarangController}\end{figure}
+![](
 
 Kemudian tambahkan codingan berikut ini pada class **BarangController** seperti berikut.
 
