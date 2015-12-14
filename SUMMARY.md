@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Landasan Teori](chapter1.md)
+* [Landasan Teori](landasan-teori.md)
 
