@@ -54,9 +54,9 @@ Spring mempunyai feature Aspect Oriented Programming (AOP) yang menjadi tulang p
 1. Spring AOP
   Salah satu komponen utama Spring adalah AOP framework, AOP framework digunakan untuk
 
-    (a) Untuk menyediakan layanan Enterprise, terutama sebagai pengganti EJB. Layanan terpenting dalam layanan            ini adalah untuk mendekralif manajemen transaksi, yang telah disediakan dalam abstraksi Spring  transaction.
-
-    (b) Untuk memungkinkan pengguna dalam menerapkan AOP dalam penggunaan OOP.
+    * Untuk menyediakan layanan Enterprise, terutama sebagai pengganti EJB. Layanan terpenting dalam layanan            ini adalah untuk mendekralif manajemen transaksi, yang telah disediakan dalam abstraksi Spring  transaction.
+    
+    * Untuk memungkinkan pengguna dalam menerapkan AOP dalam penggunaan OOP.
 
 2. Spring ORM
   Spring ORM berhubungan dengan akses database dan menyediakan lapisan layer terintegrasi dengan ORM yang populer termasuk JDO, Hibernate dan iBatis.
