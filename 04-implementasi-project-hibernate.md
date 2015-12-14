@@ -121,7 +121,7 @@ public interface BarangDao {
 
 pada class ini penulis mendeklarasikan method - method yang akan digunakan oleh aplikasi nantinya. Untuk melakukan implementasinya maka kita buat sebuah class lagi dengan cara klik kanan pada project lalu pilih java class dan isikan seperti berikut.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-06-18:43:17.png}\caption{Class BarangDaoImpl}\end{figure}
+![](gambar/screenshot6.png)
 
 Setelah selesai, tahap selanjutnya adalah tambahkan codingan pada class **BarangDaoImpl** seperti berikut :
 
