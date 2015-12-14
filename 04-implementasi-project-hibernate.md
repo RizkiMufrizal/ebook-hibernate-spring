@@ -6,7 +6,7 @@ Setelah melewati tahap membuat project, langkah selanjutnya adalah kita melakuka
 
 Seperti yang telah kita ketahui bahwa agar aplikasi kita buat lebih terstruktur dan lebih bersih maka kita akan menggunakan pattern MVC (model view controller). Silahkan klik kanan pada project anda, lalu pilih new dan pilih java class, kemudian isikan seperti berikut.
 
-![](gambar/screenshot4.png
+![](gambar/screenshot4.png)
 
 maka akan dibuatkan sebuah class dengan nama **Barang**, class ini berfungsi sebagai model dimana class ini akan kita mapping ke tabel yang ada di dalam database. Didalam bahasa pemrograman java kita akan menggunakan aturan **camel case** sehingga setiap nama class akan kita buat dengan menggunakan huruf besar sedangkan jika ada dua kata maka huruf pertama untuk kata kedua juga akan dijadikan huruf besar, contohnya adalaha misalnya **makan siang** maka akan kita ubah menjadi **MakanSiang**.
 
@@ -90,7 +90,7 @@ sebelumnya kita telah membuatkan sebuah model, di dalam model hanya berfungsi se
 
 Untuk membuat DAO, maka kita akan membuat 2 class, yang pertama adalah class interface dan yang kedua adalah class yang akan melakukan implementasi terhadap class sebelumnya. Silahkan klik kanan pada project lalu pilih new dan pilih java interface lalu isikan seperti berikut.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-06-18:35:03.png}\caption{Class Interface BarangDao}\end{figure}
+![](gambar/screenshot5.png)
 
 Kemudian tambahkan kodingan seperti berikut ini.
 
