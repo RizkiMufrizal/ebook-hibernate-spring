@@ -115,7 +115,8 @@ public class MahasiswaDao {
     }
     
     public void tambahMahasiswa(Mahasiswa mahasiswa) throws SQLException {
-        PreparedStatement ps=connection.prepareStatement("INSERT INTO mahasiswa values(?,?,?,?)");
+        PreparedStatement ps=connection.
+        prepareStatement("INSERT INTO mahasiswa values(?,?,?,?)");
         ps.setString(1, mahasiswa.getNpm());
         ps.setString(2, mahasiswa.getNama());
         ps.setString(3, mahasiswa.getAsalSekolah());
