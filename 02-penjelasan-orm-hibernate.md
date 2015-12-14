@@ -1,2 +1,0 @@
-# Penjelasan ORM Hibernate
-
