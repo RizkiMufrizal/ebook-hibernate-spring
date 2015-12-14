@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Landasan Teori](landasan-teori.md)
-* Penjelasan ORM Hibernate
+* [Penjelasan ORM Hibernate](02-penjelasan-orm-hibernate.md)
 
