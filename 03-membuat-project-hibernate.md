@@ -21,7 +21,7 @@ Berikut adalah tahapan untuk membuat project hibernate dengan menggunakan netbea
 
 Karena menggunakan maven maka kita akan lakukan konfigurasi pada maven terlebih dahulu. Silahkan buka file **pom.xml** pada bagian **Project Files** maka akan tampil seperti ini.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-06-17:17:22.png}\caption{Name And Location}\end{figure}
+![](gambar/Screenshot-from-2015-12-06-17:17:22.png)
 
 untuk mengatur dependency pada project hibernate, maka ubah kodingan pada **pom.xml** seperti berikut.
 
