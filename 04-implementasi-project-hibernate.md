@@ -266,7 +266,7 @@ sintak **@Override** merupakan implementasi dari **inheritance** dimana **@Overr
 
 Langkah selanjutnya silahkan buat class baru seperti berikut ini.
 
-![](gambar/screenshot7.png
+![](gambar/screenshot7.png)
 
 setelah selesai kemudian masukkan codingan berikut ini.
 
@@ -331,7 +331,7 @@ public class BarangTableModel extends AbstractTableModel {
 
 fungsi dari class diatas adalah untuk memberikan label untuk setiap column yang ada di dalam tabel. Nantinya kita akan membuat sebuah tabel dimana tabel tersebut berisikan data barang. Buatlah sebuah class untuk meload konfigurasi hibernate. Berikut adalah gambar untuk membuat class tersebut.
 
-\begin{figure}[H]\centering\includegraphics[width=12.5cm]{gambar/Screenshot-from-2015-12-07-11:51:13.png}\caption{Class HibernateUtil}\end{figure}
+![](gambar/screenshot8.png
 
 kemudian isikan dengan codingan berikut.
 
