@@ -81,4 +81,4 @@ Kemudian buka file `pom.xml` berikut adalah konfigurasinya
 </project>
 ```
 
-Karena kita akan menggunakan framework hibernate dan spring maka kita membutuhkan beberapa library pada spring seperti spring orm, spring tx, spring jdbc dan lain sebagainya. Pada buku ini, penulis akan membuat sebuah project hibernate dan spring mengenai data mahasiswa. 
+Karena kita akan menggunakan framework hibernate dan spring maka kita membutuhkan beberapa library pada spring seperti spring orm, spring tx, spring jdbc dan lain sebagainya.
