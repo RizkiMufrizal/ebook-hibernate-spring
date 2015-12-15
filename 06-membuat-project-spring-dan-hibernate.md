@@ -6,3 +6,4 @@ Hibernate adalah framework yang berbasis ORM sehingga hibernate akan mengurus se
 
 ##Membuat Project
 
+Sama seperti sebelumnya klik **new project**
