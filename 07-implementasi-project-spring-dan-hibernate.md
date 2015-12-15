@@ -100,3 +100,5 @@ public class Mahasiswa implements Serializable{
 }
 
 ```
+
+Pada class diatas terdapat 4 variabel dimana variabel ini akan berfungsi sebagai column yang terdapat didalam database. Penjelasan untuk annotation silahkan anda baca kembali pada bab implementasi project hibernate.
