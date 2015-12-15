@@ -102,3 +102,11 @@ public class Mahasiswa implements Serializable{
 ```
 
 Pada class diatas terdapat 4 variabel dimana variabel ini akan berfungsi sebagai column yang terdapat didalam database. Penjelasan untuk annotation silahkan anda baca kembali pada bab implementasi project hibernate.
+
+##Membuat Dao Mahasiswa
+
+Setelah membuat class `model mahasiswa` langkah selanjutnya adalah membuat class `dao` untuk mahasiswa, class ini berfungsi sebagai class yang akan melakukan akses `query` ke database. Silahkan buat sebuah class interface dengan nama `MahasiswaDao` seperti berikut ini.
+
+![](gambar/screenshot18.png)
+
+
