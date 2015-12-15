@@ -10,3 +10,8 @@ Sama seperti sebelumnya klik menu `new project` lalu pada bagian categories pili
 
 ![](gambar/screenshot16.png)
 
+Kemudian buka file `pom.xml` berikut adalah konfigurasinya
+
+```xml
+
+```
