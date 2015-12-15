@@ -6,4 +6,4 @@ Hibernate adalah framework yang berbasis ORM sehingga hibernate akan mengurus se
 
 ##Membuat Project
 
-Sama seperti sebelumnya klik menu `new project` lalu pada bagian categories pilih `maven` dan pada bagian project pilih `java application`.  
+Sama seperti sebelumnya klik menu `new project` lalu pada bagian categories pilih `maven` dan pada bagian project pilih `java application`.
