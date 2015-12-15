@@ -134,3 +134,59 @@ public interface MahasiswaDao {
     public List<Mahasiswa> getBarangs();
 }
 ```
+
+Setelah membuat class interface selanjutnya kita ingin melakukan implementasi terhadap class dao tersebut, silahkan buat sebuah class java dengan nama `MahasiswaDaoImpl` seperti berikut ini.
+
+![](gambar/screenshot19.png)
+
+kemudian ubah kodingannya menjadi seperti berikut ini.
+
+```java
+package com.belajar.springHibernate.dao;
+
+import com.belajar.springHibernate.model.Mahasiswa;
+import java.util.List;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+/**
+ * @Author Rizki Mufrizal
+ * @Since Dec 15, 2015
+ */
+
+@Repository
+public class MahasiswaDaoImpl implements MahasiswaDao{
+
+    @Autowired
+    private SessionFactory sessionFactory;
+
+    @Override
+    public void save(Mahasiswa mahasiswa) {
+        sessionFactory.getCurrentSession().save(mahasiswa);
+    }
+
+    @Override
+    public void update(Mahasiswa mahasiswa) {
+        sessionFactory.getCurrentSession().update(mahasiswa);
+    }
+
+    @Override
+    public void delete(Mahasiswa mahasiswa) {
+        sessionFactory.getCurrentSession().delete(mahasiswa);
+    }
+
+    @Override
+    public Mahasiswa getMahasiswa(String npm) {
+        return sessionFactory.getCurrentSession().get(Mahasiswa.class, npm);
+    }
+
+    @Override
+    public List<Mahasiswa> getBarangs() {
+        return sessionFactory.getCurrentSession().createCriteria(Mahasiswa.class).list();
+    }
+    
+}
+```
+
+Dapat dilihat terdapat perbedaan yang sangat signifikan ketika kita hanya menggunakan hibernate dan ketika kita menggunakan hibernate dan spring. Bisa dilihat pada class `MahasiswaDaoImpl` kita menggunakan annotati
