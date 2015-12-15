@@ -6,5 +6,5 @@
 * [Membuat Project Hibernate](03-membuat-project-hibernate.md)
 * [Implementasi Project Hibernate](04-implementasi-project-hibernate.md)
 * [Penjelasan Konsep Dependency Injection](05-penjelasan-konsep-dependency-injection.md)
-* [Membuat Project Spring](06-membuat-project-spring.md)
+* [Membuat Project Spring Dan Hibernate](06-membuat-project-spring-dan-hibernate.md)
 
