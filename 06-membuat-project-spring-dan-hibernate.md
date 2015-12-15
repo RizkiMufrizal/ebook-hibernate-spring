@@ -81,4 +81,4 @@ Kemudian buka file `pom.xml` berikut adalah konfigurasinya
 </project>
 ```
 
-Karena kita akan menggunakan framework hibernate dan spring maka kita membutuhkan beberapa 
+Karena kita akan menggunakan framework hibernate dan spring maka kita membutuhkan beberapa librar
