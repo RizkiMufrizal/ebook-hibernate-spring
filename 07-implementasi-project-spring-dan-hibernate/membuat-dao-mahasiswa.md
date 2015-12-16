@@ -77,7 +77,8 @@ public class MahasiswaDaoImpl implements MahasiswaDao {
 
     @Override
     public List<Mahasiswa> getMahasiswas() {
-        return sessionFactory.getCurrentSession().createCriteria(Mahasiswa.class).list();
+        return sessionFactory.getCurrentSession().createCriteria(Mahasiswa.class)
+        .list();
     }
 
 }
