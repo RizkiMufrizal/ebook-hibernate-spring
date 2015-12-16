@@ -19,4 +19,5 @@
 * [Implementasi Project Spring Dan Hibernate](07-implementasi-project-spring-dan-hibernate/README.md)
    * [Membuat Model Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-model-mahasiswa.md)
    * [Membuat Dao Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-dao-mahasiswa.md)
+   * Membuat Service Mahasiswa
 
