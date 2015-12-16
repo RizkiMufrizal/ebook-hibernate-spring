@@ -12,6 +12,7 @@
    * [Membuat Hibernate Util Dan Tabel Model](04-implementasi-project-hibernate/membuat-hibernate-util-dan-tabel-model.md)
    * [Membuat View Barang](04-implementasi-project-hibernate/membuat-view-barang.md)
    * [Membuat Controller Barang](04-implementasi-project-hibernate/membuat-controller-barang.md)
+   * Membuat Konfigurasi Hibernate
 * [Penjelasan Konsep Dependency Injection](05-penjelasan-konsep-dependency-injection.md)
 * [Membuat Project Spring Dan Hibernate](06-membuat-project-spring-dan-hibernate.md)
 * [Implementasi Project Spring Dan Hibernate](07-implementasi-project-spring-dan-hibernate.md)
