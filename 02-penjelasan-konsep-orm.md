@@ -1,4 +1,4 @@
-#Penjelasan Konsep ORM
+#Bab 2 : Penjelasan Konsep ORM
 
 Di bagian teori penulis telah menulis mengenai teori mengenai ORM sehingga penulis menyimpulkan bahwa Object Relational Mapping atau lebih sering disebut ORM adalah sebuah konsep dimana sebuah object merupakan representasi dari basis data yang berbasis relational.
 
