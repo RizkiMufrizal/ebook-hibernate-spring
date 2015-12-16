@@ -20,5 +20,5 @@
    * [Membuat Model Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-model-mahasiswa.md)
    * [Membuat Dao Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-dao-mahasiswa.md)
    * [Membuat Service Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-service-mahasiswa.md)
-   * Membuat Tabel Model
+   * [Membuat Tabel Model](07-implementasi-project-spring-dan-hibernate/membuat-tabel-model.md)
 
