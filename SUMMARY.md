@@ -9,6 +9,7 @@
 * [Implementasi Project Hibernate](04-implementasi-project-hibernate/README.md)
    * [Membuat Model Barang](04-implementasi-project-hibernate/membuat-model-barang.md)
    * [Membuat Dao Barang](04-implementasi-project-hibernate/membuat-dao-barang.md)
+   * Membuat Hibernate Util Dan Tabel Model
 * [Penjelasan Konsep Dependency Injection](05-penjelasan-konsep-dependency-injection.md)
 * [Membuat Project Spring Dan Hibernate](06-membuat-project-spring-dan-hibernate.md)
 * [Implementasi Project Spring Dan Hibernate](07-implementasi-project-spring-dan-hibernate.md)
