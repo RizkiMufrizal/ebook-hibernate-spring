@@ -2,7 +2,7 @@
 
 Karena menggunakan maven maka kita akan lakukan konfigurasi pada maven terlebih dahulu. Silahkan buka file **pom.xml** pada bagian **Project Files** maka akan tampil seperti ini.
 
-![](gambar/screenshot3.png)
+![](../gambar/screenshot3.png)
 
 untuk mengatur dependency pada project hibernate, maka ubah kodingan pada **pom.xml** seperti berikut.
 
