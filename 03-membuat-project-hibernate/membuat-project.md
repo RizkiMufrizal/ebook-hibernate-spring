@@ -11,4 +11,4 @@ Berikut adalah tahapan untuk membuat project hibernate dengan menggunakan netbea
 * Pada bagian version biarkan saja dikarenakan aplikasi yang kita bangun masih tahap development maka versionnya default akan menjadi **1.0-SNAPSHOT**.
 * Pada bagian **package** isikan dengan **com.belajar.hibernate** yang berfungsi sebagai nama package dari aplikasi yang akan kita buat nanti, lalu klik finish. Berikut adalah contoh pembuatan projectnya.
 
-![](gambar/screenshot2.png)
+![](../gambar/screenshot2.png)
