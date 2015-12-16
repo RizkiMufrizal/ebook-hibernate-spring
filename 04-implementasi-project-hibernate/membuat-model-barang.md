@@ -1,0 +1,2 @@
+# Membuat Model Barang
+
