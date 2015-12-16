@@ -17,4 +17,5 @@
 * [Membuat Project Spring Dan Hibernate](06-membuat-project-spring-dan-hibernate/README.md)
    * [Membuat Project](06-membuat-project-spring-dan-hibernate/membuat-project.md)
 * [Implementasi Project Spring Dan Hibernate](07-implementasi-project-spring-dan-hibernate/README.md)
+   * Membuat Model Mahasiswa
 
