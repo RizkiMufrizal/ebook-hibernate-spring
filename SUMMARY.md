@@ -14,6 +14,6 @@
    * [Membuat Controller Barang](04-implementasi-project-hibernate/membuat-controller-barang.md)
    * [Membuat Konfigurasi Hibernate](04-implementasi-project-hibernate/membuat-konfigurasi-hibernate.md)
 * [Penjelasan Konsep Dependency Injection](05-penjelasan-konsep-dependency-injection.md)
-* [Membuat Project Spring Dan Hibernate](06-membuat-project-spring-dan-hibernate.md)
+* [Membuat Project Spring Dan Hibernate](06-membuat-project-spring-dan-hibernate/README.md)
 * [Implementasi Project Spring Dan Hibernate](07-implementasi-project-spring-dan-hibernate.md)
 
