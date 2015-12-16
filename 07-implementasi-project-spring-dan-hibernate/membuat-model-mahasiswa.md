@@ -19,21 +19,20 @@ import javax.persistence.Table;
  * @Author Rizki Mufrizal
  * @Since Dec 15, 2015
  */
-
 @Entity
 @Table(name = "tb_mahasiswa")
-public class Mahasiswa implements Serializable{
+public class Mahasiswa implements Serializable {
 
     @Id
     @Column(name = "npm", length = 8)
     private String npm;
-    
+
     @Column(name = "nama", length = 50)
     private String nama;
-    
+
     @Column(name = "kelas", length = 10)
     private String kelas;
-    
+
     @Column(name = "alamat", length = 150)
     private String alamat;
 
@@ -92,9 +91,8 @@ public class Mahasiswa implements Serializable{
     public void setAlamat(String alamat) {
         this.alamat = alamat;
     }
-    
-}
 
+}
 ```
 
 Pada class diatas terdapat 4 variabel dimana variabel ini akan berfungsi sebagai column yang terdapat didalam database. Penjelasan untuk annotation silahkan anda baca kembali pada bab implementasi project hibernate.
