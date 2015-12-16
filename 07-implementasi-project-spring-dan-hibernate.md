@@ -1,4 +1,4 @@
-# Implementasi Project Spring Dan Hibernate
+#Bab 7 : Implementasi Project Spring Dan Hibernate
 
 Setelah melewati tahap pembuatan project, selanjutnya kita akan mulai melakukan coding dengan hibernate dan spring. Pada bab ini kita akan membuat sebuah aplikasi untuk data mahasiswa.
 
@@ -287,3 +287,69 @@ Pada class ini kita menggunakan annotation `@Service` menandakan bahwa ini adala
 Annotation `@Transactional` kita gunakan sebagai transaction management, berbeda sekali dengan class `dao` tanpa spring, kita diharuskan membuat transaction dan try catch secara manual. Dengan menggunakan spring maka transaction akan dihandle oleh spring dengan menggunakan annotation `@Transactional`, setiap method yang akan dieksekusi secara otomatis spring akan melakukan transaction atau sering disebut dengan `Declarative Transaction`. Untuk membuat `Declarative Transaction` maka spring menggunakan konsep `AOP (aspect oriented programming)`.
 
 Annotation `@Transactional` pada bagian class terdapat perintah `readOnly = true` berfungsi untuk method yang tidak melakukan manipulasi data seperti method `getMahasiswa` dan `getMahasiswas` sedangkan untuk method `save`, `update` dan `delete` kita hanya menggunakan annotation `@Transactional` karena secara default annotation `@Transactional` dikhususkan untuk method yang melakukan query sehingga default perintahnya adalah `readOnly = false`.
+
+##Membuat Tabel Model
+
+Jika membuat project dengan menggunakan hibernate maka kita membutuhkan konfigurasi class `hibernate util` dan `tabel model` sedangkan jika menggunakan framework `hibernate` dan `spring` maka kita hanya butuh konfigurasi `tabel model` untuk menampilkan data pada `JTable`. Konfigurasi hibernate nantinya akan kita load melalui konfigurasi spring maka kita tidak memerlukan konfigurasi `Hibernate Util`. Silahkan buat sebuah class dengan nama `MahasiswaTableModel` seperti berikut ini.
+
+ ![](gambar/screenshot22.png)
+
+Kemudian ubah codingannya seperti berikut ini.
+
+```java
+package com.belajar.springHibernate.configuration;
+
+import com.belajar.springHibernate.model.Mahasiswa;
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.table.AbstractTableModel;
+
+/**
+ * @Author Rizki Mufrizal
+ * @Since Dec 16, 2015
+ */
+public class MahasiswaTableModel extends AbstractTableModel {
+
+    private List<Mahasiswa> mahasiswas = new ArrayList<>();
+    private final String HEADER[] = {"NPM", "Nama", "Kelas", "Alamat"};
+
+    public MahasiswaTableModel(List<Mahasiswa> mahasiswas) {
+        this.mahasiswas = mahasiswas;
+    }
+
+    @Override
+    public int getRowCount() {
+        return mahasiswas.size();
+    }
+
+    @Override
+    public int getColumnCount() {
+        return HEADER.length;
+    }
+
+    @Override
+    public String getColumnName(int columnIndex) {
+        return HEADER[columnIndex];
+    }
+
+    @Override
+    public Object getValueAt(int rowIndex, int columnIndex) {
+        Mahasiswa mahasiswa = mahasiswas.get(rowIndex);
+        switch (columnIndex) {
+            case 0:
+                return mahasiswa.getNpm();
+            case 1:
+                return mahasiswa.getNama();
+            case 2:
+                return mahasiswa.getKelas();
+            case 3:
+                return mahasiswa.getAlamat();
+            default:
+                return null;
+        }
+    }
+
+}
+ ```
+
+##Membuat View Mahasiswa
