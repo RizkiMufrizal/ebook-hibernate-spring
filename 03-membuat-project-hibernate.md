@@ -1,4 +1,4 @@
-# Membuat Project Hibernate
+#Bab 3 : Membuat Project Hibernate
 
 Pada bab ini kita akan belajar bagaimana membuat sebuah project dengan menggunakan [Netbeans](https://netbeans.org/). Netbeans adalah salah satu IDE (integrated development environment) yang digunakan oleh programmer java, selain netbeans juga terdapat IDE yang lain seperti [InteliJ IDEA](https://www.jetbrains.com/idea/) dan [Eclipse](https://eclipse.org/). Project yang akan kita buat adalah project berbasis maven, mengapa berbasis maven ? dikarenakan kita membutuhkan dependency library yang akan digunakan oleh project yang akan kita buat. Selain sebagai dependency management, maven juga berfungsi sebagai build tool dimana maven dapat melakukan compile terhadap aplikasi yang kita buat.
 
