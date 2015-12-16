@@ -58,6 +58,5 @@ public class MahasiswaTableModel extends AbstractTableModel {
                 return null;
         }
     }
-
 }
  ```
