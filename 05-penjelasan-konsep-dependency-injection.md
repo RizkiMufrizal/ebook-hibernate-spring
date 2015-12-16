@@ -1,4 +1,4 @@
-#Penjelasan Konsep Dependency Injection
+#Bab 5 : Penjelasan Konsep Dependency Injection
 
 [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection) merupakan salah satu implementasi dari konsep [Inversion Of Control (IoC)](https://en.wikipedia.org/wiki/Inversion_of_control). Dependency Injection berfungsi agar suatu class tidak terikat dengan class yang lain sehingga dependency injection akan memberikan injeksi kepada class yang membutuhkan dependency. Dependency Injection dapat diimplementasikan dengan menggunakan 3 cara yaitu
 
