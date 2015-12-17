@@ -116,7 +116,8 @@ Bisa dilihat bahwa terdapat error yaitu pada bagian variabel `App` dikarenakan k
 ```java
 public class MahasiswaView extends javax.swing.JFrame {
 
-    private final MahasiswaController mahasiswaController = new MahasiswaController(this);
+    private final MahasiswaController mahasiswaController = 
+    new MahasiswaController(this);
     
     //other resource   
 }
