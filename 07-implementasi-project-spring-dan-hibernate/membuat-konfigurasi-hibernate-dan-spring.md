@@ -8,7 +8,9 @@ Konfigurasi yang pertama kali kita buat adalah konfigurasi hibernate, untuk konf
     DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.MySQLDialect
+        </property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
@@ -48,19 +50,22 @@ Setelah selesai kemudian ubah codingan pada konfigurasi spring seperti berikut i
     <context:component-scan base-package="com.belajar.springHibernate" />
     <context:property-placeholder location="classpath:jdbc.properties" />
     
-    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" 
+    <bean id="dataSource" class="org.springframework.jdbc.datasource
+    .DriverManagerDataSource" 
         p:driverClassName="${jdbc.driver}"
         p:url="${jdbc.url}"
         p:username="${jdbc.username}"
         p:password="${jdbc.password}"
     />
     
-    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean"
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5
+    .LocalSessionFactoryBean"
         p:dataSource-ref="dataSource"
         p:configLocation="classpath:hibernate.cfg.xml"
     />
     
-    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager" 
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5
+    .HibernateTransactionManager" 
         p:sessionFactory-ref="sessionFactory"
     />
     
