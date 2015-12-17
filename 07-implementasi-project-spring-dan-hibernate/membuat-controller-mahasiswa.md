@@ -9,6 +9,7 @@ Kemudian masukkan kodingan seperti berikut ini.
 ```java
 package com.belajar.springHibernate.controller;
 
+import com.belajar.springHibernate.App;
 import com.belajar.springHibernate.configuration.MahasiswaTableModel;
 import com.belajar.springHibernate.model.Mahasiswa;
 import com.belajar.springHibernate.view.MahasiswaView;
