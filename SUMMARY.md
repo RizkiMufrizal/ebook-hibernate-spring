@@ -23,5 +23,5 @@
    * [Membuat Tabel Model](07-implementasi-project-spring-dan-hibernate/membuat-tabel-model.md)
    * [Membuat View Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-view-mahasiswa.md)
    * [Membuat Controller Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-controller-mahasiswa.md)
-   * Membuat Konfigurasi Hibernate Dan Spring
+   * [Membuat Konfigurasi Hibernate Dan Spring](07-implementasi-project-spring-dan-hibernate/membuat-konfigurasi-hibernate-dan-spring.md)
 
