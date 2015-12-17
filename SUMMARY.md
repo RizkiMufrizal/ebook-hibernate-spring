@@ -25,4 +25,5 @@
    * [Membuat Controller Mahasiswa](07-implementasi-project-spring-dan-hibernate/membuat-controller-mahasiswa.md)
    * [Membuat Konfigurasi Hibernate Dan Spring](07-implementasi-project-spring-dan-hibernate/membuat-konfigurasi-hibernate-dan-spring.md)
 * [Daftar Pustaka](daftar-pustaka.md)
+* Tentang Pengarang
 
