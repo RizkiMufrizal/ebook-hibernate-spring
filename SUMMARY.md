@@ -26,5 +26,5 @@
    * [Membuat Konfigurasi Hibernate Dan Spring](07-implementasi-project-spring-dan-hibernate/membuat-konfigurasi-hibernate-dan-spring.md)
 * [Daftar Pustaka](daftar-pustaka.md)
 * [Tentang Pengarang](tentang-pengarang.md)
-* Lisensi
+* [Lisensi](lisensi.md)
 
