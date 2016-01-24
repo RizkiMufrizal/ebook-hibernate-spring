@@ -10,7 +10,7 @@ Dengan syarat tetap harus menyebutkan nama pengarang yang aslinya. Singkatnya, b
 
 ![](./gambar/by-sa.png)
 
-Ebook Hibernate Spring by Rizki Mufrizal is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+[Ebook Hibernate](https://github.com/RizkiMufrizal/ebook-hibernate-spring) Spring by [Rizki Mufrizal](https://github.com/RizkiMufrizal/) is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 Based on a work at https://github.com/RizkiMufrizal/ebook-hibernate-spring.
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
